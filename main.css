@@ -251,13 +251,12 @@ img {
     color: white;
   }
 
-  .small {
-    position: absolute;
-    bottom: 0;
-    background-color: transparent;
-    width: 100%;
+  .footer{
     color: white;
-    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
   }
 
 
