@@ -1,3 +1,3 @@
-# ManosGouvrikos.github.io
+# Manosgou.github.io
 
-My personal website
+My personal website:https://manosgou.github.io/
