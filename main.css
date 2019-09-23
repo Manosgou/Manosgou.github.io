@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-snap-align:center;
+    
+  }
+
+
+
+body{
+    background-image: linear-gradient(#141E30,#243B55);
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+   
+    
+}
+
+
+
+
+
+
+header{
+    
+    height:100vh;
+}
+
+
+.main{
+    overflow: hidden;
+   
+    
+    width: 100%; 
+}
+
+
+
+
+
+ul{
+    float:right;
+    list-style: none;
+    margin-top: 25px;
+     
+    
+
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 5px 20px;
+    transition: 0.3s ease;
+
+}
+
+
+
+
+ul li a:hover{
+    background-color:antiquewhite;
+    color: #141E30; 
+}
+
+.title{
+    
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color:antiquewhite;
+    font-size: 70px;
+    letter-spacing: 0.05em;
+    
+}
+
+.title h2{
+    padding-right: 50px;
+    color:antiquewhite;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.container{
+    padding:7%;
+    background-color:antiquewhite;
+    overflow: hidden;
+    
+    
+}
+
+
+
+.name{
+    margin: 10%;
+}
+
+.about-me{
+    
+    color:#fff;
+    border-bottom: 5px solid #243B55;
+    width: 10%;
+}
+
+.about-me h3{
+    font-size: 30px;
+    font-weight: 900;
+    color: #262626;
+}
+.paragraph{
+    padding: 5px;
+    color: #262626;
+    
+    
+}
+
+.paragraph p{
+    font-size:20px;
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+    
+    
+}
+
+.container img{
+    margin-right: 10px;
+    display: block;
+    margin: 0 auto;
+    
+    
+    
+    
+}
+
+img {
+    border-radius: 50%;
+    max-width: 15%;
+    max-height: 15%;
+    padding:20px;
+    
+   
+   
+
+    
+
+
+
+}
+
+
+
+.github{
+    
+    text-align: center;
+    padding: 20%;
+    color: #fff;
+    font-size:50px;
+}
+
+
+
+
+.find-me{
+    padding: 20%;
+    text-align: center;
+    
+   
+    
+}
+
+.find-me h4{
+    color: #fff;
+    font-size:50px;
+    
+    
+    
+}
+
+
+
+.fa {
+    overflow: hidden;
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+    color: #243B55;
+    background-color: white;
+  }
+  
+  
+  
+  
+  .fa-facebook {
+    
+    color: white;
+  }
+
+  .card {
+   text-align: center;
+    padding: 50px;
+    
+  }
+  
+  .fa-instagram {
+    
+    color: white;
+  }
+
+  .fa-telegram {
+    
+    color: white;
+  }
+
+  .footer {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+  }
+
+
+ 
