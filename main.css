@@ -11,6 +11,13 @@ html {
     
   
   }
+ 
+  html ::-webkit-scrollbar { 
+    display: none;  
+    
+    
+} 
+  
 
 
 
@@ -86,6 +93,7 @@ ul li a:hover{
 }
 
 .title h1{
+    font-family: 'Kaushan Script', cursive;
     color:antiquewhite;
     font-size: 70px;
     letter-spacing: 0.05em;
@@ -258,6 +266,30 @@ img {
     align-items:center;
     width:100%;
   }
+
+  
+  .project-table{
+      padding: 5px;
+  }
+  
+  #github-projects{
+    overflow-y: scroll;
+    overflow-x: scroll;
+    text-align:center;
+    height:200px;
+    font-family: 'Lato', sans-serif;
+    background-color:#fff;
+    border-radius: 18px;
+    font-size: 2vw;
+    color:black;
+    padding:5px;
+
+
+}
+
+
+
+
 
 
  
