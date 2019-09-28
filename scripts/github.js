@@ -14,7 +14,7 @@ jQuery.githubUser = function(username, callback) {
          target.empty().append(list);
          $(repos).each(function() {
              if (this.name != (username.toLowerCase()+'.github.com')) {
-                 list.append('<dt style="height: 50px;border-bottom: 1px solid #ddd;"><a style="color:black;text-decoration: none;padding:10px;"href="'+ (this.homepage?this.homepage:this.html_url) +'">' + this.name + '</a> Language:<em>'+(this.language?(' '+this.language):'')+'</em></dt>');
+                 list.append('<dt style="height: 50px;border-bottom: 1px solid #ddd;"><a style="color:black;padding:10px;color:#333;"href="'+ (this.homepage?this.homepage:this.html_url) +'">' + this.name + '</a> Language:<em>'+(this.language?(' '+this.language):'')+'</em></dt>');
                  //list.append('<dd>' + this.description +'</dd>');
              }
          });      

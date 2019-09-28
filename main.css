@@ -270,7 +270,10 @@ img {
   
   .project-table{
       padding: 5px;
+
   }
+
+  
   
   #github-projects{
     overflow-y: scroll;
@@ -285,6 +288,10 @@ img {
     padding:5px;
 
 
+}
+
+.a:hover{
+    text-decoration: underline;
 }
 
 
