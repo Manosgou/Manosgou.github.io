@@ -46,14 +46,9 @@ header{
 
 .main{
     overflow: hidden;
-   
-    
-    width: 100%; 
+    width: 100%;
+     
 }
-
-
-
-
 
 ul{
     float:right;
@@ -75,9 +70,6 @@ ul li a{
     transition: 0.3s ease;
 
 }
-
-
-
 
 ul li a:hover{
     background-color:antiquewhite;
@@ -268,8 +260,8 @@ img {
   }
 
   
-  .project-table{
-      padding: 5px;
+  .repositories{
+      padding: 10px;
 
   }
 
@@ -290,9 +282,6 @@ img {
 
 }
 
-.a:hover{
-    text-decoration: underline;
-}
 
 
 
