@@ -10,7 +10,7 @@ jQuery.githubUser = function(username, callback) {
          var repos = data.data; // JSON Parsing
          sortByName(repos);    
         
-         var list = $('<table style="width:100%;"><tr><th style="position: sticky; top: 0;background-color:#fff;">Repository name</th><th style="position: sticky; top: 0;background-color:#fff;">Language</th></tr></table>');
+         var list = $('<table style="width:100%;"><tr><th style="position:sticky;top:-5px;background-color:#fff;width:68%;">Repository name</th><th style="position: sticky;top:-5px;background-color:#fff;">Language</th></tr></table>');
          target.empty().append(list);
          $(repos).each(function() {
              if (this.name != (username.toLowerCase()+'.github.com')) {
